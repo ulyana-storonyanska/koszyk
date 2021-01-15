@@ -6,3 +6,48 @@
     top: 90px;
     right: 100px;
 }
+
+.brokul {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+.kapusta {
+    height: 130px;
+    width: 130px;
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 65px;
+}
+
+.czosnek {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 280px;
+    left: 80px;
+}
+
+.pizza {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+
+.popcorn {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 500px;
+    left: 80px;
+}
