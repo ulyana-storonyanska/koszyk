@@ -1,3 +1,7 @@
+body {
+    font-family: sans-serif;
+}
+
 .koszyk {
     height: 100px;
     width: 200px;
@@ -50,4 +54,31 @@
     position: absolute;
     top: 500px;
     left: 80px;
+}
+
+.products>h2 {
+    position: absolute;
+    left: 200px;
+}
+
+.brokul>h2 {
+    top: 20px;
+    margin-left: -5px; 
+}
+
+.kapusta>h2 {
+    top: 40px;
+    margin-left: 12px;
+}
+
+.czosnek>h2 {
+    top: 25px;
+}
+
+.pizza>h2 {
+    top: 10px;
+}
+
+.popcorn>h2 {
+    top: 40px;
 }
