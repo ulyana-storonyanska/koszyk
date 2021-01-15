@@ -1,0 +1,8 @@
+.koszyk {
+    height: 100px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    top: 90px;
+    right: 100px;
+}
