@@ -11,13 +11,25 @@ body {
     right: 100px;
 }
 
-.brokul {
+.brokul{
     height: 100px;
     width: 100px;
     display: block;
     position: absolute;
     top: 50px;
     left: 80px;
+    
+}
+
+.brokul>img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: brokul 4s;
+    
 }
 
 .kapusta {
@@ -29,6 +41,16 @@ body {
     left: 65px;
 }
 
+.kapusta>img {
+    height: 130px;
+    width: 130px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: kapusta 4s;
+}
+
 .czosnek {
     height: 100px;
     width: 100px;
@@ -36,6 +58,16 @@ body {
     position: absolute;
     top: 280px;
     left: 80px;
+}
+
+.czosnek>img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: czosnek 4s;
 }
 
 .pizza {
@@ -47,6 +79,16 @@ body {
     left: 80px;
 }
 
+.pizza>img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: pizza 4s;
+}
+
 .popcorn {
     height: 100px;
     width: 100px;
@@ -54,6 +96,16 @@ body {
     position: absolute;
     top: 500px;
     left: 80px;
+}
+
+.popcorn>img {
+    height: 100px;
+    width: 100px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: popcorn 4s;
 }
 
 .products>h2 {
@@ -82,3 +134,177 @@ body {
 .popcorn>h2 {
     top: 40px;
 }
+
+@keyframes brokul {
+    0% {
+        height: 100px;
+        width: 100px;
+    }
+    45% {
+        height: 50px;
+        width: 50px;
+        top: 90px;
+        left: 1135px;
+    }
+    50% {
+        top: -40px;
+    }
+    60% {
+        top: 90px;
+    }
+    70% {
+        top: -40px;
+    }
+    80% {
+        top: 90px;
+    }
+    90% {
+        top: -40px;
+    }
+    100% {
+        height: 50px;
+        width: 50px;
+        top: 90px;
+        left: 1135px;
+    }
+}
+
+@keyframes kapusta {
+    0% {
+        height: 100px;
+        width: 100px;
+    }
+    45% {
+        height: 50px;
+        width: 50px;
+        top: 0px;
+        left: 1135px;
+    }
+    50% {
+        top: -130px;
+    }
+    60% {
+        top: 0px;
+    }
+    70% {
+        top: -130px;
+    }
+    80% {
+        top: 0px;
+    }
+    90% {
+        top: -130px;
+    }
+    100% {
+        height: 50px;
+        width: 50px;
+        top: 0px;
+        left: 1135px;
+    }
+}
+
+@keyframes czosnek {
+    0% {
+        height: 100px;
+        width: 100px;
+    }
+    45% {
+        height: 50px;
+        width: 50px;
+        top: -130px;
+        left: 1135px;
+    }
+    50% {
+        top: -260px;
+    }
+    60% {
+        top: -130px;
+    }
+    70% {
+        top: -260px;
+    }
+    80% {
+        top: -130px;
+    }
+    90% {
+        top: -260px;
+    }
+    100% {
+        height: 50px;
+        width: 50px;
+        top: -130px;
+        left: 1135px;
+    }
+}
+
+@keyframes pizza {
+    0% {
+        height: 100px;
+        width: 100px;
+    }
+    45% {
+        height: 50px;
+        width: 50px;
+        top: -250px;
+        left: 1135px;
+    }
+    50% {
+        top: -380px;
+    }
+    60% {
+        top: -250px;
+    }
+    70% {
+        top: -380px;
+    }
+    80% {
+        top: -250px;
+    }
+    90% {
+        top: -380px;
+    }
+    100% {
+        height: 50px;
+        width: 50px;
+        top: -250px;
+        left: 1135px;
+    }
+}
+
+@keyframes popcorn {
+    0% {
+        height: 100px;
+        width: 100px;
+    }
+    45% {
+        height: 50px;
+        width: 50px;
+        top: -350px;
+        left: 1135px;
+    }
+    50% {
+        top: -480px;
+    }
+    60% {
+        top: -350px;
+    }
+    70% {
+        top: -480px;
+    }
+    80% {
+        top: -350px;
+    }
+    90% {
+        top: -480px;
+    }
+    100% {
+        height: 50px;
+        width: 50px;
+        top: -350px;
+        left: 1135px;
+    }
+}
+
+
+
+
