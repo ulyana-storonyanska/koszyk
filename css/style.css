@@ -28,8 +28,12 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    animation: brokul 4s;
+/*    animation: brokul 4s;*/
     
+}
+
+.brokulimg {
+    animation: brokul 4s;
 }
 
 .kapusta {
@@ -48,6 +52,10 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
+    
+}
+
+.kapustaimg {
     animation: kapusta 4s;
 }
 
@@ -67,6 +75,10 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
+    
+}
+
+.czosnekimg {
     animation: czosnek 4s;
 }
 
@@ -86,6 +98,10 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
+    
+}
+
+.pizzaimg {
     animation: pizza 4s;
 }
 
@@ -105,7 +121,11 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
+}
+
+.popcornimg {
     animation: popcorn 4s;
+    
 }
 
 .products>h2 {
